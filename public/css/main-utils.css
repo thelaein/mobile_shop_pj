@@ -1,0 +1,49 @@
+.item-product-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.item-product-name {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.invoice-dash {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.item-product {
+    border: 1px solid lightgray;
+    transition: border 0.3s;
+}
+
+.item-product:hover {
+    border: 1px solid black;
+}
+
+ul li a.nav-link:hover {
+    color: black;
+    background: #f2f2f2;
+}
+
+ul li a.active {
+    color: black;
+    border-bottom: 2px solid #F9813A;
+    /*border-bottom-color: #ffc720;*/
+}
+
+.nav-link-text {
+    color: black;
+}
+
+.bg-cart:hover {
+    cursor: default;
+}
+
